@@ -66,7 +66,7 @@ const router = createBrowserRouter([
       {
         path: "update-task/:id",
         element: <UpdateTask></UpdateTask>,
-        loader: ({params})=>fetch(`http://localhost:5000/tasks/${params.id}`)
+        loader: ({params})=>fetch(`https://technovision-server-sooty.vercel.app/tasks/${params.id}`)
       },
     ]
   }
