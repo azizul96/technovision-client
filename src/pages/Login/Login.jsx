@@ -2,7 +2,6 @@ import { useContext } from "react";
 import { FcGoogle } from "react-icons/fc";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import toast from "react-hot-toast";
-import Navbar from "../../components/Navbar/Navbar";
 import { AuthContext } from "../../Context/AuthProvider";
 
 
@@ -43,9 +42,7 @@ const Login = () => {
 
     return (
         <div>
-            <div className="mb-10">
-                <Navbar></Navbar>
-            </div>
+            
             <div className="flex w-full max-w-sm mx-auto overflow-hidden bg-white rounded-lg shadow-lg dark:bg-gray-800 lg:max-w-4xl">
 
                 <div className="hidden bg-cover lg:block lg:w-1/2" >

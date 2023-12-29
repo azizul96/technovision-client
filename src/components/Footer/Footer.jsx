@@ -1,12 +1,14 @@
 import { FaFacebookF, FaTwitter, FaYoutube } from "react-icons/fa";
 
 const Footer = () => {
+    
     return (
+        <div data-aos="zoom-in-up" data-aos-duration="3000">
             <div className="bg-[#e09f3e] mt-10">
             <footer className="footer justify-between p-10  text-neutral-content container mx-auto">
                 <aside>
                     <img className="w-16 " src="/logo.png" alt="" />
-                    <p className="text-white text-lg">SCC Technovision Inc.<br/>Providing reliable service since 2020</p>
+                    <p className="text-white text-lg">Task Master Inc.<br/>Providing reliable service since 2020</p>
                 </aside> 
                 <nav>
                     <header className="font-bold text-[#335c67] text-2xl">Follow <br />Us</header> 
@@ -20,9 +22,10 @@ const Footer = () => {
             </footer>
             <div className="footer footer-center p-4 bg-base-300 text-base-content">
                 <aside>
-                    <p>Copyright © 2023 - All right reserved by  Technovision Inc.</p>
+                    <p>Copyright © 2023 - All right reserved by  Task Master Inc.</p>
                 </aside>
             </div>
+        </div>
         </div>
     );
 };

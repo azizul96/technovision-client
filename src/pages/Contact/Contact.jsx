@@ -36,7 +36,7 @@ const Contact = () => {
                             <p className="flex items-start -mx-2">
                                 <MdEmail className="text-2xl text-[#8a50fb]"/>
 
-                                <span className="mx-2 text-gray-700 truncate w-72 dark:text-gray-400">hello@scc-technovision.com</span>
+                                <span className="mx-2 text-gray-700 truncate w-72 dark:text-gray-400">hello@task-master.com</span>
                             </p>
                         </div>
                     </div>

@@ -20,7 +20,7 @@ const Dashboard = () => {
             
             <Navbar></Navbar>
             <div className="flex flex-col md:flex-row container mx-auto gap-2">
-                <div className=" h-auto md:w-56  md:h-screen bg-[#2a9d8f] rounded-md">
+                <div className=" h-auto md:w-56   bg-[#2a9d8f] rounded-md">
                     <div className='flex justify-center mt-5'>
                         <img className="object-cover w-20 h-20 border-2 border-[#8a50fb] rounded-full "src={user.photoURL} alt="avatar" />
                         
